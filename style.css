@@ -145,3 +145,24 @@ div.fadeIn {
     transform: translateY(0px);
   }
 }
+
+@media screen and (max-width: 1000px) {
+  section {
+    min-height: 1000px;
+    background-color: rgb(39, 41, 68);
+    font-family: sans-serif;
+  }
+  .score h2 {
+    font-size: 20px;
+    justify-content: center;
+    position: relative;
+  }
+
+  .player-hand,
+  .computer-hand {
+    width: 100%;
+  }
+  .options {
+    display: inline-block;
+  }
+}
